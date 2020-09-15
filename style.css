@@ -378,7 +378,7 @@ ANCHOR SECTION 5
 .div-contato{
    width: 100%;
    
-   background-color: #fff;
+   background-color: #303030;
    display: flex;
    flex-direction: column;
    
@@ -387,15 +387,20 @@ ANCHOR SECTION 5
    
    width: 100%;
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(600px, 600px));
+   grid-template-columns: repeat(auto-fit, minmax(500px, 500px));
    grid-gap: 20px;
    justify-content: center;
    text-align: center;
    padding-bottom: 40px;
-   margin: 25px 0px 0px;
+   margin: 50px 0px 0px;
 }
 .div-contato-filho h2{
    font-size: 34px;
+   color: #fff;
+}
+
+.div-contato-filho p {
+   color: #fff;
 }
  .section5 {
    width: 100%;
@@ -420,7 +425,7 @@ ANCHOR SECTION 5
    padding-bottom: 18px;
 }
 .alinha-contato{
-   height: 50%;;
+   height: 50%;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -480,7 +485,7 @@ ANCHOR SECTION 6
 
 .s6-left p, 
 .s6-left a {
-   color: #333333;
+   color: #fff;
    font-size: 18px;
    font-weight: 500;
 }
@@ -528,7 +533,7 @@ ANCHOR SECTION 6
 
 .endPage {
   
-   background-color: #AB8D80;
+   background-color: #202020;
    color: white;
    width: 100%;
    text-align: center;

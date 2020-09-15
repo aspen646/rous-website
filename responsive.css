@@ -164,4 +164,8 @@
   .s2-content img {
     width: 180px;
   }
+
+  .inbound-form-wrapper {
+    width: 40%;
+  }
 }
