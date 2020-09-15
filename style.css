@@ -41,7 +41,7 @@ ANCHOR SECTION 1
 */
 .section1 {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding-left: 4vw;
     padding-right: 4vw;
     flex: 1;
@@ -76,7 +76,7 @@ ANCHOR SECTION 1
    padding-right: 40px;
    font-size: 1.6rem;
    color: black;
-   font-weight: 500;
+   font-weight: 800;
 }
 
 .right-menu a:hover {
@@ -94,18 +94,26 @@ ANCHOR SECTION 1
    width: 100%;
    height: 100%;
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    align-items: center;
-   justify-content: space-between;
+   justify-content: center;
 
 }
 
 .s1-left h1 {
-   font-size: 7.3rem;
-   font-weight: 500;
+   font-weight: 800;
+   font-size: 64px;
+   line-height: 75px;
    height: auto;
 }
-
+.s1-left{
+  margin-top: 20px;
+  
+}
+.s1-right{
+  
+ 
+}
 .s1-left p {
    font-size: 4.0rem;
    color: #F27D8E;
@@ -115,6 +123,9 @@ ANCHOR SECTION 1
 }
 
 .s1-img {
+   -webkit-filter: drop-shadow(0px 0px 250px rgba(61, 60, 153, 0.7));
+  
+    
    width: 600px;
 }
 
@@ -270,7 +281,11 @@ ANCHOR SECTION 4
    text-align: center;
    font-size: 50px;
 }
-
+.s4-text{
+  
+ padding: 0 20%;
+   text-align: center;
+}
 .s4-content h2 {
    color: white;
    font-size: 2.4rem;
@@ -323,6 +338,7 @@ ANCHOR SECTION 4
 
 .box1-content, .box2-content, .box3-content {
    padding: 30px 20px 40px;
+   
 }
 
 .box1, .box2, .box3 {
@@ -359,12 +375,33 @@ ANCHOR SECTION 4
 /*
 ANCHOR SECTION 5
 */
-
+.div-contato{
+   width: 100%;
+   
+   background-color: #fff;
+   display: flex;
+   flex-direction: column;
+   
+}
+.div-contato-filho{
+   
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(600px, 600px));
+   grid-gap: 20px;
+   justify-content: center;
+   text-align: center;
+   padding-bottom: 40px;
+   margin: 25px 0px 0px;
+}
+.div-contato-filho h2{
+   font-size: 34px;
+}
  .section5 {
    width: 100%;
    height: 100%;
    flex: 1;
-   background-color: #6E92DB; 
+  
    padding-left: 4vw;
    padding-right: 4vw;
  }
@@ -377,12 +414,18 @@ ANCHOR SECTION 5
    align-items: center;
  }
 
-.s5-content h1 {
+.div-contato h1 {
    font-size: 5.0rem;
    color: white;
    padding-bottom: 18px;
 }
-
+.alinha-contato{
+   height: 50%;;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
 .link-content {
    padding-top: 24px;
    padding-bottom: 48px;
@@ -391,7 +434,7 @@ ANCHOR SECTION 5
 .linkWhats{
    font-size: 3.0rem;
    font-weight: 500;
-   color: white;
+   color: #6E92DB;
 }
 
 .linkWhats:hover {
@@ -407,7 +450,7 @@ ANCHOR SECTION 6
    width: 100%;
    height: 100vh;
    flex: 1;
-   background-color: #f0f0f5; 
+   background-color: #25d366; 
    
 }
 
@@ -435,10 +478,10 @@ ANCHOR SECTION 6
 
 }
 
-.s6-flex p, 
-.s6-flex a {
-   color: #6E92DB;
-   font-size: 2.8rem;
+.s6-left p, 
+.s6-left a {
+   color: #333333;
+   font-size: 18px;
    font-weight: 500;
 }
 
@@ -451,11 +494,14 @@ ANCHOR SECTION 6
 
 .right-content a {
    margin-bottom: 19px;
+   color: #6E92DB;
 }
 
 .s6-left {
    margin-left: 10%; 
+   
 }
+
 
 .s6-left .ig a {
    display: flex; 
@@ -472,6 +518,7 @@ ANCHOR SECTION 6
    flex-direction: row;
    align-items: center;
    margin-bottom: 19px;
+   
 }
 
 #left-svg {
@@ -480,7 +527,7 @@ ANCHOR SECTION 6
 }
 
 .endPage {
-   position: absolute; 
+  
    background-color: #AB8D80;
    color: white;
    width: 100%;
