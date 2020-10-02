@@ -110,10 +110,7 @@ ANCHOR SECTION 1
   margin-top: 20px;
   
 }
-.s1-right{
-  
- 
-}
+
 .s1-left p {
    font-size: 4.0rem;
    color: #F27D8E;
@@ -382,14 +379,19 @@ ANCHOR SECTION 4
    background-color: lightgray;
 }
 
-.clientes marquee {
+.clientes-titulo {
+   text-align: center;
+}
+
+.clientes .cliente-container-img {
    height: 100%;
    align-items: center;
    display: flex;
+   justify-content: center;
 }
 
-.clientes marquee img {
-   padding-left: 25%;
+.clientes .cliente-container-img img {
+   padding-right: 2%;
 }
 
 /*
@@ -524,7 +526,7 @@ ANCHOR SECTION 6
 
 .s6-left {
    margin-left: 10%; 
-   
+   display: grid;
 }
 
 
@@ -532,6 +534,10 @@ ANCHOR SECTION 6
    display: flex; 
    flex-direction: row; 
    align-items: center;
+}
+
+.s6-left .rousimg img {
+   width: 13rem;
 }
 
 .s6-right {
