@@ -371,16 +371,17 @@ ANCHOR SECTION 4
    transition: 0.5s;
 }
 
+
+/*
+OPINIÃO DOS CLIENTES E CLIENTES
+*/
+
 .clientes {
    
    margin-top: 40px;
    width: 100vw;
    height: 200px;
-   background-color: lightgray;
-}
-
-.clientes-titulo {
-   text-align: center;
+   background-color: #6E92DB;
 }
 
 .clientes .cliente-container-img {
@@ -392,6 +393,18 @@ ANCHOR SECTION 4
 
 .clientes .cliente-container-img img {
    padding-right: 2%;
+}
+
+.opiniao-clientes {
+   background-color: #6E92DB;
+   padding-top: 40px;
+}
+
+.partecinza {
+   width: 100vw;
+   background-color: #303030;
+   height: 300px;
+   margin-top: -250px;
 }
 
 /*
