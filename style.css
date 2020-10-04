@@ -102,7 +102,7 @@ ANCHOR SECTION 1
 
 .s1-left h1 {
    font-weight: 800;
-   font-size: 64px;
+   font-size: 6.4rem;
    line-height: 75px;
    height: auto;
 }
@@ -400,6 +400,38 @@ OPINIÃO DOS CLIENTES E CLIENTES
    padding-top: 40px;
 }
 
+.nomeefoto-container {
+   display: flex;
+   align-items: center;
+   text-align: left;
+   padding-bottom: 30px;
+}
+
+.nomeefoto-container img {
+   border-radius: 50%;
+   height: 80px;
+}
+
+.nome-container {
+   padding-left: 25px;
+}
+
+.nome-container h1 {
+   font-size: 2.4rem;
+   font-weight: 500;
+   color: #f4f4f4;
+}
+
+.nome-container p {
+   font-size: 2.0rem;
+   font-weight: 100;
+   color: #b7b7b7;
+}
+
+.opiniao-text {
+   text-align: left;
+}
+
 .partecinza {
    width: 100vw;
    background-color: #303030;
@@ -430,7 +462,7 @@ ANCHOR SECTION 5
    margin: 50px 0px 0px;
 }
 .div-contato-filho h2{
-   font-size: 34px;
+   font-size: 3.4rem;
    color: #fff;
 }
 
@@ -460,9 +492,10 @@ ANCHOR SECTION 5
    padding-bottom: 18px;
 }
 .alinha-contato{
-   height: 50%;
+   height: 100%;
    display: flex;
-   justify-content: center;
+   flex-direction: column;
+   justify-content: space-around;
    align-items: center;
    
 }
@@ -538,8 +571,8 @@ ANCHOR SECTION 6
 }
 
 .s6-left {
-   margin-left: 10%; 
-   display: grid;
+   display: flex;
+   flex-direction: column;
 }
 
 
