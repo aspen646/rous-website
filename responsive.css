@@ -117,6 +117,13 @@
     top: 0;
     transform: translateY(0%);
   }
+
+  #s5 .div-contato-filho .s6-left {
+    padding-top: 40px;
+  }
+  #s5 .div-contato-filho .s6-left h2 {
+    padding-bottom: 20px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -167,5 +174,16 @@
 
   .inbound-form-wrapper {
     width: 40%;
+  }
+}
+
+@media (max-width: 425px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 320px) {
+  html {
+    font-size: 30%;
   }
 }
