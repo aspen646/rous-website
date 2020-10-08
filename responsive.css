@@ -122,7 +122,11 @@
     padding-top: 40px;
   }
   #s5 .div-contato-filho .s6-left h2 {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+  }
+
+  #s5 .div-contato-filho .s6-left .rousimg img {
+    width: 8rem;
   }
 }
 
@@ -173,7 +177,7 @@
   }
 
   .inbound-form-wrapper {
-    width: 40%;
+    margin: 0px 5.0rem;
   }
 }
 

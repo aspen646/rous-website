@@ -73,7 +73,7 @@ ANCHOR SECTION 1
 }
 
 .right-menu a {
-   padding-right: 40px;
+   margin-right: 40px;
    font-size: 1.6rem;
    color: black;
    font-weight: 800;
@@ -132,6 +132,7 @@ ANCHOR SECTION 2
 
 .section2 {
    width: 100%;
+   max-height: 1000px;
    height: 100vh;
    flex: 1;
    background-color: #FFFFFF; 
@@ -174,7 +175,6 @@ ANCHOR SECTION 2
 
 .s2-right-img {
    align-self: center;
-   
 }
  
 /*
@@ -183,6 +183,7 @@ ANCHOR SECTION 3
 
  .section3 {
     width: 100%;
+    max-height: 1000px;
     height: 100vh;
     flex: 1;
     background-color: #6E92DB; 
@@ -220,6 +221,7 @@ ANCHOR SECTION 3
 
 .s3-right img {
    height: 85vh;
+   max-height: 857px;
 }
 
 .s3-left {
@@ -257,12 +259,6 @@ ANCHOR SECTION 4
     
  }
 
- /* @media (max-width: 1150px) {
-   .section4 {
-      height: 100%;
-   }
-} */
-
  .s4-content {
    padding-left: 4vw;
    padding-right: 4vw;
@@ -282,7 +278,7 @@ ANCHOR SECTION 4
 }
 .s4-text{
   
- padding: 0 5%;
+   padding: 0 20%;
    text-align: center;
 }
 .s4-content h2 {
@@ -603,7 +599,7 @@ ANCHOR SECTION 6
 }
 
 .s6-left .rousimg img {
-   width: 13rem;
+   width: 8rem;
 }
 
 .s6-right {
